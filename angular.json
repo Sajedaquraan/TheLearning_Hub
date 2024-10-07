@@ -25,9 +25,24 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/Home/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/Home/vendor/bootstrap-icons/bootstrap-icons.css",
+              "src/assets/Home/vendor/aos/aos.css",
+              "src/assets/Home/vendor/glightbox/css/glightbox.min.css",
+              "src/assets/Home/vendor/swiper/swiper-bundle.min.css",
+              "src/assets/Home/css/main.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/Home/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/Home/vendor/php-email-form/validate.js",
+              "src/assets/Home/vendor/aos/aos.js",
+             "src/assets/Home/vendor/glightbox/js/glightbox.min.js",
+             "src/assets/Home/vendor/purecounter/purecounter_vanilla.js",
+             "src/assets/Home/vendor/swiper/swiper-bundle.min.js",
+             "src/assets/Home/js/main.js"
+ 
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
